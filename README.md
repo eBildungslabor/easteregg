@@ -2,7 +2,7 @@
 
 Add a simple confetti style easter egg to any website.
 
-You can also [View a live demo](https://nhhollander.github.io/easteregg/)
+[View a live demo](https://nhhollander.github.io/easteregg/)
 
 To use, add the contents of this repository to your website, and then add the
 following to your `<head>`:
