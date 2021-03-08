@@ -1,0 +1,17 @@
+/*
+ * Easter Egg Style.
+ *
+ * Copyright 2021 Nicholas Hollander <nhhollander@wpi.edu>
+ * 
+ * Licensed under the MIT license
+ */
+
+div.easter_egg {
+    width: 2cm;
+    height: 2cm;
+    top: -100vh;
+    background-size: cover;
+    position: fixed;
+    z-index: 99999;
+    transform: rotateX(var(--rotx)) rotateY(var(--roty)) rotateZ(var(--rotz)) scale(var(--scale));
+}
