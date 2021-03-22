@@ -17,7 +17,7 @@
 
 // Change to point to your images of choice
 let egg_images = [
-    "robot.svg"
+    "hase.png"
 ];
 // Too many eggs causes performance issues!
 let egg_count = 100;
