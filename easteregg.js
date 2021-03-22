@@ -26,10 +26,17 @@ let framerate = 60;
 
 let anim_interval = undefined;
 var secret_code = [
-    "72",
-    "65",
-    "83",
-    "69"
+    "ArrowUp",
+    "ArrowUp",
+    "ArrowDown",
+    "ArrowDown",
+    "ArrowLeft",
+    "ArrowRight",
+    "ArrowLeft",
+    "ArrowRight",
+    "b",
+    "a",
+    " "
 ];
 var code_index = 0;
 
