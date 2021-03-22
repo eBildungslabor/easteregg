@@ -26,11 +26,6 @@ let framerate = 60;
 
 let anim_interval = undefined;
 var secret_code = [
-    "o",
-    "s",
-    "t",
-    "e",
-    "r",
     "l",
     "a",
     "m",
