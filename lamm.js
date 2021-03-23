@@ -25,27 +25,9 @@ let egg_count = 100;
 let framerate = 60;
 
 let anim_interval = undefined;
-var secret_code = [
-    "l",
-    "a",
-    "m",
-    "m"
-];
 var code_index = 0;
 
-document.addEventListener("keydown", keydown);
-
-function keydown(e) {
-    if(e.key == secret_code[code_index]) {
-        code_index += 1;
-    } else {
-        code_index = 0;
-    }
-    if(code_index == secret_code.length) {
-        code_index = 0;
-        deploy_eggs();
-    }
-}
+document.addEventListener("onload", onload);
 
 function rand(min, max) {
     return (Math.random() * (max - min)) + min;
