@@ -1,17 +1,20 @@
-# Simple Easter Egg
+# Ostereier im Internet verstecken
 
-Add a simple confetti style easter egg to any website.
+Hier ist ein Beispiel: (Lösungswort: offen)
 
-[View a live demo](https://nhhollander.github.io/easteregg/)
+[View a live demo](https://ebildungslabor.github.io/easteregg/)
 
-To use, add the contents of this repository to your website, and then add the
-following to your `<head>`:
 
-```html
-<head>
-    <script type="module" src="easteregg.js"></script>
-    <link rel="stylesheet" href="easteregg.css" />
-</head>
-```
+## Wie funktioniert das? 
 
-By default, the easter egg is activated by typing ↑ ↑ ↓ ↓ ← → ← → B A [space].
+In der index.html Datei werden die Inhalte eingetragen.
+In der hase.js Datei ist das Bild verlinkt, das herunterregnen soll. 
+Außerdem das Lösungswort.
+
+Um Dein eigenes Osterei zu verstecken, kopierst Du Dir dieses Verzeichnis und trägst dann Deine Inhalte in der index.html Datei ein sowie das gewünschte Bild und Lösungswort in der hase.js Datei. Fertig!
+
+Noch einfacher geht der Remix [auf Glitch]().
+
+## Credits
+
+Der Code stammt von Nicholas Hollander <nhhollander@wpi.edu>. Lizenziert unter der MIT Lizenz.
