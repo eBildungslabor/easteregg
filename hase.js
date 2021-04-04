@@ -17,7 +17,7 @@
 
 // Change to point to your images of choice
 let egg_images = [
-    "osterhase.png"
+    "hase.png"
 ];
 // Too many eggs causes performance issues!
 let egg_count = 100;
@@ -26,10 +26,11 @@ let framerate = 60;
 
 let anim_interval = undefined;
 var secret_code = [
-    "h",
-    "a",
-    "s",
-    "e"
+    "o",
+    "f",
+    "f",
+    "e",
+    "n"
 ];
 var code_index = 0;
 
