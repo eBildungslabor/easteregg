@@ -15,3 +15,13 @@ div.easter_egg {
     z-index: 99999;
     transform: rotateX(var(--rotx)) rotateY(var(--roty)) rotateZ(var(--rotz)) scale(var(--scale));
 }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
